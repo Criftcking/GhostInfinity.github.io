@@ -1,0 +1,53 @@
+.face{
+  color: #0074ff;
+  text-align: center;
+}
+
+
+
+.user{
+  padding-left: 12px;
+  background-color: whitesmoke;
+  border-color: white;
+  width: 370px;
+  height: 30px;
+  margin-left: 5px;
+  position: absolute;
+  top: 95px
+  
+}
+
+.pass{
+  padding-left: 11px;
+  background-color: whitesmoke;
+  border-color: white;
+  width: 370px;
+  height: 30px;
+  margin-left: 5px;
+  position: relative;
+  top: 15px;
+
+}
+
+
+
+
+.btn{
+  background-color: #0074ff;
+  width: 375px;
+  height: 40px;
+  margin-left: 5px;
+  position: relative;
+  top: 25px;
+  font-size: 16px;
+  color: #ffffff;
+  
+}
+
+.link{
+  position: relative;
+  top: 40px;
+  padding-left: 100px;
+  color: royalblue;
+  
+}
