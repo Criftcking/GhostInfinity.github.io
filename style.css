@@ -1,53 +1,47 @@
-.face{
-  color: #0074ff;
-  text-align: center;
+html, body {
+background-color: rgb(39, 134, 146);
+background-image:url(mantenimiento.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+}
+
+.contenedor {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+
+.text {
+color: bisque;
+text-align: center;
+animation: animacion 2s infinite;
 }
 
 
+@keyframes animacion {
 
-.user{
-  padding-left: 12px;
-  background-color: whitesmoke;
-  border-color: white;
-  width: 370px;
-  height: 30px;
-  margin-left: 5px;
-  position: absolute;
-  top: 95px
-  
-}
-
-.pass{
-  padding-left: 11px;
-  background-color: whitesmoke;
-  border-color: white;
-  width: 370px;
-  height: 30px;
-  margin-left: 5px;
-  position: relative;
-  top: 15px;
+    0% {
+        opacity: 0;
+        transform: translateX(0px);
+      }
+      50% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      100% {
+        opacity: 0;
+        transform: translateX(0px);
+      }
 
 }
 
+.imagen-pocicionada {
 
-
-
-.btn{
-  background-color: #0074ff;
-  width: 375px;
-  height: 40px;
-  margin-left: 5px;
-  position: relative;
-  top: 25px;
-  font-size: 16px;
-  color: #ffffff;
-  
-}
-
-.link{
-  position: relative;
-  top: 40px;
-  padding-left: 100px;
-  color: royalblue;
-  
+position: absolute;
+top: 80%;
+left: 7%;
+transform: translate(-50%, -50%);
+width: 200px;
 }
