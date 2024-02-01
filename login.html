@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login</title>
+<link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+
+<h1 class="title">Ghost Infinity Login</h1>
+
+
+<form id="logrinForm" onsubmit="return checkLogin()">
+
+
+  <label for="username">Nombre de Usuario</label>
+  <input type="text" id="username" name="username" placeholder="ejemplo@gmail.com" required>
+
+  <label for="password">Contraseña</label>
+  <input type="password" id="password" name="password" placeholder="Contraseña" required>
+
+
+
+  <button type="submit" onclick="checkLogin()">Iniciar Sesion</button>
+
+
+
+  </form>
+
+<div class="alertmsg" id="message"></div>
+
+<script src="scryptlogin.js"></script>
+</body>
+
+</html>

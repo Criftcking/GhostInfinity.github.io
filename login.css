@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 96%);
+    text-align: center;
+    margin: 170px;
+    background-image:url(doctor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.title {
+    color: rgba(220, 232, 236, 0.847);
+    background-color: #0a74dd84;
+    max-width: 20px;
+    font-size: 40px;
+    margin-top: -80px;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    background: #0853a882;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgba(250, 235, 215, 0.708);
+}
+
+button {
+    background-color: #042bd992;
+    font-size: 23px;
+    border-radius: 10px;
+    color: rgb(248, 244, 238);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    color: rgba(228, 233, 226, 0.925);
+
+}
+
+.alertmsg {
+    background-color: rgba(255, 0, 0, 0.539);
+    color: rgba(251, 247, 0, 0.861);
+}
